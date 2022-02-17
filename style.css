@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.h3 {
+    color: var(--primary-color);
+}
+
+.authors {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.round-img {
+    width: 120px;
+    height: 120px;
+}
+
+.img-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-btn-border {
+    padding: 5px;
+    background-color: transparent;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.responsive-img {
+    height: 500px;
+}
+
+.cards-cont {
+    display: flex;
+    margin: 20px;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.complete-card {
+    max-width: 40rem;
+}
