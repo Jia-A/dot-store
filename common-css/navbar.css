@@ -8,6 +8,10 @@
     align-items: center;
 
 }
+
+.website-name{
+    margin-bottom: 3px;
+}
 .icon{
     color: var(--primary-color);
 }
