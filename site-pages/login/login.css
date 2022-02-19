@@ -1,0 +1,40 @@
+.login-main{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.pass-rem{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: transparent;
+}
+.label-inp{
+
+    margin-bottom: 1px;
+}
+.login-head{
+    font-weight: 500;
+    color: var(--primary-color);
+
+}
+.h4{
+    font-weight: 300;
+}
+.new-ac{
+    text-decoration: underline;
+}
+.submit-btn{
+    width: 85%;
+}
