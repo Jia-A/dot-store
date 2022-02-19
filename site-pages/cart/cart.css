@@ -63,11 +63,11 @@
     margin-left: 0px;
     padding-left: 0px;
 }
-.quant-head{
+.quantity-head{
     margin-right: 0px;
     padding-right: 0px;
 }
-.quant-btn{
+.quantity-btn{
     background-color: transparent;
     border: 1px solid var(--primary-color);
     border-radius: 100%
@@ -78,7 +78,7 @@
 .dec:hover{
     background-color: var(--warning-color);
 }
-.quant-btn:hover{
+.quantity-btn:hover{
     cursor: pointer;;
 }
 .product-quant{
