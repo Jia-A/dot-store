@@ -60,4 +60,12 @@
 .primary-btn-border{
     background-color: transparent;
 }
+.main-info-cont, 
+.sub-info-cont,
+.footer{
+    text-align: center;
+}
+.footer{
+    justify-content: space-around;
+}
 
