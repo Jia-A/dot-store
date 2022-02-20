@@ -1,8 +1,4 @@
 .wishlist-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 40px;
     margin: 2.5rem 1rem;
 }
@@ -18,8 +14,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: var(--container-gap);
 }
 .complete-card{
