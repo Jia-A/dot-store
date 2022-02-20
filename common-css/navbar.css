@@ -11,6 +11,10 @@
 .website-name{
     margin-bottom: 3px;
 }
+.dot-img{
+    width: 15px;
+    height: 15px;
+}
 .icon{
     color: var(--primary-color);
 }
