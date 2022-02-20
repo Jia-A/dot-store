@@ -15,8 +15,8 @@ body {
 }
 .primary-btn, 
 .primary-btn-border,
-.secondary-btn-border,
-.secondary-btn{
+.secondary-btn-border
+{
     padding: 5px;
 }
 .button{
