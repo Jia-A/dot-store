@@ -50,13 +50,8 @@
 .info-head{
     font-weight: 500;
 }
-.button{
-    background-color: transparent;
-}
-.primary-btn, 
-.primary-btn-border{
-    padding: 5px;
-}
+
+
 .primary-btn-border{
     background-color: transparent;
 }
