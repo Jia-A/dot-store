@@ -13,4 +13,12 @@ body {
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
 }
-
+.primary-btn, 
+.primary-btn-border,
+.secondary-btn-border,
+.secondary-btn{
+    padding: 5px;
+}
+.button{
+    background-color: transparent;
+}
