@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://techtonic-ui.netlify.app/styles.css">
+    <link rel="stylesheet" href="../../common-css/navbar.css">
+    <link rel="stylesheet" href="../../common-css/root.css">
+
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../../common-css/sign-login-auth.css">
+
+    <title>Dot | Login</title>
+</head>
+<body>
+    <div class="nav-con">
+        <nav class="nav-bar">
+            <div>
+                <h2 class="website-name">Dot Store</h2>
+
+                <p class="sm-txt"><i>Everything ends with a dot.</i></p>
+            </div>
+            
+            <div class="box">
+                <input type="text" placeholder="Search" class="search-box input">
+            </div> 
+            <div class="nav-btn">
+                <button class="btn secondary-btn">Login</button>
+                <div class="btn-badge">
+                    <button class="btn icon-only-btn"><i class="far fa-user icon"></i></button>
+                    <div class="real-badge">6</div>
+                </div>
+                <div class="btn-badge">
+                    <button class="btn icon-only-btn"><i class="far fa-heart icon"></i></button>
+                    <div class="real-badge">4</div>
+                </div>
+                
+                <div class="btn-badge">
+                    <button class="btn icon-only-btn"><i class="far fa-shopping-cart icon"></i></button>
+                    <div class="real-badge">1</div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main class="form-main align-justify-center margin-30">
+       
+        <div class="form-container align-justify-center">
+
+            <form action="" class="login-form">
+                <h2 class="form-head">Login Form</h2>
+                <label for="email" class="label-inp">Email address*</label>
+                <input type="text" class="email-id-input input" id="email" required>
+                <label for="password" class="label-inp">Password*</label>
+                <input type="password" class="input" id="password" required>
+                <div class="pass-rem">
+                    <label for="">
+                        <input type="checkbox" id="remem-me">
+                        Remember me
+                    </label>
+                    <button class="button read-btn">Forgot your password?</button>
+                </div>
+                <div>
+                    <button class="submit-btn btn primary-btn">Login</button>
+                </div>
+                <button class="new-ac button read-btn">Create new account</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

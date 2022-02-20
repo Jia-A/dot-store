@@ -12,12 +12,17 @@
     display: flex;
 
     text-align: center;
+    padding: 20px;
+
+
+    text-align: center;
     padding: 1.25rem;
 
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
+
 
 }
 .form-head{
