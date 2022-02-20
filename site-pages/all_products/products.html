@@ -49,6 +49,64 @@
                 <h3 class="filter-heading">Filters</h3>
                 <button class="button read-btn right">Clear all</button>
             </div>
+            <div>
+                <h4 class="filter-heading">Price</h4>
+                <div class="range-cont">
+                    <span class="sm-txt range-num">200</span>
+                    <span class="sm-txt range-num">600</span>
+                    <span class="sm-txt range-num">1000</span>
+                </div>
+                <input type="range" class="price-range" min="200" max="1000">
+            </div>
+            <div>
+               <h4 class="filter-heading">Category</h4> 
+               <label for="thriller">
+                   <input type="checkbox" id="thriller" name="thriller" value="thrilling">
+                   Thriller
+               </label>
+               <label for="rom-com">
+                    <input type="checkbox" id="rom-com" name="rom-com" value="RomCom">
+                    Rom-com
+                </label>
+                <label for="fanstasy">
+                    <input type="checkbox" id="fantasy" name="fantasy" value="imagination">
+                    Fantasy
+                </label>
+                <label for="sad">
+                    <input type="checkbox" id="sad" name="sad" value="depressing">
+                    Sad
+                </label>
+            </div>
+            <div>
+                <h4 class="filter-heading">Ratings</h4>
+                <label for="1star">
+                    <input type="radio" id="1star" name="rating" value="1">
+                    1 star & above
+                </label>
+                <label for="2star">
+                    <input type="radio" id="2star" name="rating" value="2">
+                    2 star & above
+                </label>
+                <label for="3star">
+                    <input type="radio" id="3star" name="rating" value="3">
+                    3 star & above
+                </label>
+                <label for="4star">
+                    <input type="radio" id="4star" name="rating" value="4">
+                    4 star & above
+                </label>
+            </div>
+            <div>
+                <h4 class="filter-heading">Sort by</h4>
+                <label for="l-to-h">
+                    <input type="radio" id="l-to-h" name="sorting" value="low">
+                    Price : Low to High
+                </label>
+                <label for="h-to-l">
+                    <input type="radio" id="h-to-l" name="sorting" value="high">
+                    Price : High to Low
+                </label>
+            </div>
         </aside>
         <div class="product-container flex-prop">
             <h2 class="product-head">Showing All Products</h2>
