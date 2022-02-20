@@ -31,9 +31,7 @@
     width: 15.625rem;
     height: 16.875rem;
 }
-.primary-btn{
-    padding: 5px;
-}
+
 .wish-icon{
     color: var(--warning-color);
 }
@@ -45,7 +43,6 @@
     font-weight: 500;
 }
 .button{
-    background-color: transparent;
     text-decoration: underline;
 }
 .button:hover{
