@@ -97,11 +97,7 @@
     padding: 5px;
 }
 
-.price,
-.discount-am,
-.delivery,
-.total-am,
-.saved-am{
+.bill-cont{
     display: flex;
     align-items: center;
     justify-content: space-between;
